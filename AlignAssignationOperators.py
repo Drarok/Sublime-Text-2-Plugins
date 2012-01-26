@@ -43,7 +43,7 @@ class AlignAssignationOperatorsCommand(sublime_plugin.TextCommand):
                     replacementText += line
                 else:
                     # Process the text and insert the required number of spaces.
-                    prefix = line[0:currentOperatorPos - 1].rstrip()
+                    prefix = line[0:currentOperatorPos].rstrip()
                     suffix = line[currentOperatorPos:].lstrip()
                     spaces = ' ' * (maxOperatorPosition - len(prefix))
 
