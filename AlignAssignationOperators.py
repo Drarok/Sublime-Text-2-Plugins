@@ -3,6 +3,11 @@ import sublime_plugin
 
 
 class AlignAssignationOperatorsCommand(sublime_plugin.TextCommand):
+    """
+    Align all of the assignation operators (=, =>) in the current selection by
+    inserting spaces before the operator.
+    """
+
     def run(self, edit):
         # Loop over each selection.
         for sel in self.view.sel():
