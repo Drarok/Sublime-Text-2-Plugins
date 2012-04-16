@@ -1,0 +1,18 @@
+<snippet>
+	<content><![CDATA[
+<?php
+/**
+ * ${1:short description}
+ * 
+ * @category  ${2:category}
+ * @package   ${3:package}
+ * @author    Mat Gadd <mgadd@names.co.uk>
+ * @copyright 2009-2012 Namesco Limited
+ * @license   http://names.co.uk/license Namesco
+ */
+
+${0}
+]]></content>
+	<tabTrigger>&lt;?php</tabTrigger>
+	<scope>source.php</scope>
+</snippet>

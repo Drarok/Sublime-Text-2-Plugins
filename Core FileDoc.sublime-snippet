@@ -1,0 +1,17 @@
+<snippet>
+	<content><![CDATA[
+/**
+ * ${1:short description}.
+ * 
+ * @package   ${2:package}
+ * @category  ${3:category}
+ * @copyright Core Framework
+ * @license   http://coreframework.net/license
+ */
+$0
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>/**core</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<scope>source.php</scope> 
+</snippet>
