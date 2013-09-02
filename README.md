@@ -45,3 +45,9 @@ After:
 
 	echo 'This is a fixed string', PHP_EOL;
 </pre>
+
+## Class Name to Class Path
+
+This plugin adds a 'class_name_to_class_path' command, which replaces underscores and backslashes in the selected text with slashes, allowing you to paste a class name into the fuzzy file search, select the text, and turn it into a class path.
+
+You'll need to assign it to a keyboard shortcut for it to be useful. I use Ctrl+Shift+C.
